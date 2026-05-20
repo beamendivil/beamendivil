@@ -20,7 +20,11 @@ Frontend architecture, REST API integrations, accessibility, and civic impact to
 
 - [About Me](#about-me)
 - [Projects](#projects)
-- [Civic Finance SPA](#civic-finance-spa)
+  - [Civic Finance SPA](#civic-finance-spa)
+  - [WTWR Frontend](#wtwr-frontend)
+  - [WTWR Backend](#wtwr-backend)
+  - [ZONA-PT](#zona-pt)
+  - [Arizona Wine Experience](#arizona-wine-experience)
 - [Focus Dashboard](#focus-dashboard)
 - [Project Spotlight](#project-spotlight)
 - [Tech Stack](#tech-stack)
@@ -38,11 +42,37 @@ Coming from a background in onboarding and program strategy, my greatest strengt
 - Features a custom deterministic data pipeline and strict BEM CSS architecture.
 - Focused on turning financial data into something people can actually act on.
 
+### WTWR Frontend
+
+- A weather-based wardrobe app built with **React** that helps users decide what to wear based on real-time conditions.
+- Focused on a clean, responsive UI and a practical user flow for everyday use.
+- Repository: [WTWR-Frontend-React-Weather-Based-Wardrobe-App](https://github.com/beamendivil/WTWR-Frontend-React-Weather-Based-Wardrobe-App.git)
+
+### WTWR Backend
+
+- The API layer for the weather-based wardrobe app, built with **Express** and **MongoDB**.
+- Handles the data and request flow that supports the frontend experience.
+- Repository: [WTWR-Backend-Express-and-MongoDB-API](https://github.com/beamendivil/WTWR-Backend-Express-and-MongoDB-API.git)
+
+### ZONA-PT
+
+- Repository: [ZONA-PT](https://github.com/beamendivil/ZONA-PT.git)
+- Add a short description here to highlight the most important user flow or technical detail when you want this project to stand out more.
+
+### Arizona Wine Experience
+
+- Repository: [Arizona-Wine-Experience](https://github.com/beamendivil/Arizona-Wine-Experience.git)
+- Add a short description here to highlight the experience, interface, or impact once you want to tailor the project story.
+
 ## Project Spotlight
 
-| Project           | What to review                                                      | Links                                  |
-| ----------------- | ------------------------------------------------------------------- | -------------------------------------- |
-| Civic Finance SPA | Frontend structure, API integration, and data-to-visualization flow | [Project overview](#civic-finance-spa) |
+| Project                 | What to review                                                      | Links                                        |
+| ----------------------- | ------------------------------------------------------------------- | -------------------------------------------- |
+| Civic Finance SPA       | Frontend structure, API integration, and data-to-visualization flow | [Project overview](#civic-finance-spa)       |
+| WTWR Frontend           | Responsive UI, weather-driven decision flow, and React structure    | [Project overview](#wtwr-frontend)           |
+| WTWR Backend            | API design, Express structure, and MongoDB data handling            | [Project overview](#wtwr-backend)            |
+| ZONA-PT                 | Project story, interface decisions, and any standout technical work | [Project overview](#zona-pt)                 |
+| Arizona Wine Experience | Experience design, content flow, and product polish                 | [Project overview](#arizona-wine-experience) |
 
 If you add more projects later, keep them in this section so the table of contents stays aligned with what reviewers should assess first.
 
