@@ -1,97 +1,114 @@
-# Hi there, I'm Bea Mendivil 👋
+# Hi, I’m Bea Mendivil 👋
 
-I am a Software Engineer transitioning from a 5+ year career in customer implementation, onboarding, and community engagement. I build intuitive, accessible web applications that translate complex logic and data into user-friendly experiences.
+I’m a software engineer with 10+ years of experience in onboarding, implementation, and community-facing work — so I tend to think about software the same way I think about product adoption: where users get stuck, what helps them trust a system, and how to make complex workflows feel unexpectedly clear.
 
-Currently, I am focused on frontend architecture, REST API integrations, and digital tools that drive civic and community impact.
+I build accessible, user-centered web applications with a frontend focus, and I’m especially interested in architecture, API integrations, interaction design, and products that create practical value for real people.
 
 ```bash
 bea@github:~$ whoami
-Bea Mendivil | Software Engineer | frontend-focused | community-minded
-
-bea@github:~$ current_focus
-Frontend architecture, REST API integrations, accessibility, and civic impact tools
+Bea Mendivil | Software Engineer | frontend-focused | onboarding-minded | suspiciously passionate about clarity
 ```
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![Accessibility](https://img.shields.io/badge/Accessibility-first-0F766E?style=for-the-badge&logo=github&logoColor=FFFFFF)
 
-## Table of Contents
-
-- [About Me](#about-me)
-- [Projects](#projects)
-  - [Civic Finance SPA](#civic-finance-spa)
-  - [WTWR Frontend](#wtwr-frontend)
-  - [WTWR Backend](#wtwr-backend)
-  - [ZONA-PT](#zona-pt)
-  - [Arizona Wine Experience](#arizona-wine-experience)
-- [Focus Dashboard](#focus-dashboard)
-- [Project Spotlight](#project-spotlight)
-- [Tech Stack](#tech-stack)
-- [Connect](#connect)
-
 ## About Me
 
-Coming from a background in onboarding and program strategy, my greatest strength is **cross-functional communication**. I don't just write code; I understand how to map user friction points, scale workflows, and build systems that prioritize long-term user adoption and accessibility.
+Before moving into software engineering, I spent years in onboarding, implementation, and community engagement. That background shaped how I build: I care about reducing friction, improving activation, supporting adoption, and designing workflows people can actually follow without needing a rescue mission from support.
 
-## Projects
+In SaaS terms, I think a lot about trust, handoff, enablement, retention, and the moment a product finally *clicks* for a user.
 
-### Civic Finance SPA
+In engineering terms, that translates to frontend systems that are maintainable, accessible, API-connected, and grounded in real-world user behavior.
 
-- A civic-finance SPA built with **React** and **Vite** that quantifies and visualizes the local economic ROI of personal spending using the YNAB API.
-- Features a custom deterministic data pipeline and strict BEM CSS architecture.
-- Focused on turning financial data into something people can actually act on.
+## Featured Projects
+
+### SocialImpact
+
+A full-stack personal finance dashboard that reframes budgeting around **community ROI** instead of individual-only metrics.
+
+- Integrates with the **YNAB API** to turn spending data into community-centered impact narratives.
+- Built with **React, Vite, Node.js, Express, MongoDB, and BEM-based CSS**.
+- Includes deterministic impact logic, milestone visualization, and a mission-driven product concept rooted in civic value.
+- Live Demo: [SocialImpact](https://beamendivil.github.io/SocialImpact/)
+- Repository: [beamendivil/SocialImpact](https://github.com/beamendivil/SocialImpact)
+
+### ZONA PT
+
+A physical therapy support app designed to help therapists guide patients through recovery exercises in a way that feels structured, approachable, and easier to follow between appointments.
+
+- Built with **React, TypeScript, Vite, Tailwind CSS, Radix UI, React Hook Form, and Zod**.
+- Includes therapist/patient demo flows, protected routes, progress tracking, care plan views, and exercise assignment workflows.
+- Designed around a real adherence/onboarding problem: patients often leave with instructions, but not always with clarity or confidence.
+- Strong example of product thinking around education, accessibility, and future bilingual UX.
+- Repository: [beamendivil/ZONA-PT](https://github.com/beamendivil/ZONA-PT)
 
 ### WTWR Frontend
 
-- A weather-based wardrobe app built with **React** that helps users decide what to wear based on real-time conditions.
-- Focused on a clean, responsive UI and a practical user flow for everyday use.
-- Repository: [WTWR-Frontend-React-Weather-Based-Wardrobe-App](https://github.com/beamendivil/WTWR-Frontend-React-Weather-Based-Wardrobe-App.git)
+A weather-based wardrobe app that helps users decide what to wear based on current conditions while managing their personal clothing inventory.
+
+- Built with **React, Vite, JavaScript, React Router, and REST API integrations**.
+- Includes authentication flows, protected routes, profile management, item creation/deletion, likes, modal interactions, and weather-based filtering logic.
+- A solid example of component-driven frontend architecture and full-stack integration.
+- Frontend: [quemepongo.baselinux.net](https://www.quemepongo.baselinux.net)
+- Repository: [beamendivil/WTWR-Frontend-React-Weather-Based-Wardrobe-App](https://github.com/beamendivil/WTWR-Frontend-React-Weather-Based-Wardrobe-App)
 
 ### WTWR Backend
 
-- The API layer for the weather-based wardrobe app, built with **Express** and **MongoDB**.
-- Handles the data and request flow that supports the frontend experience.
-- Repository: [WTWR-Backend-Express-and-MongoDB-API](https://github.com/beamendivil/WTWR-Backend-Express-and-MongoDB-API.git)
+The Express and MongoDB backend powering the WTWR frontend.
 
-### ZONA-PT
-
-- Repository: [ZONA-PT](https://github.com/beamendivil/ZONA-PT.git)
-- Add a short description here to highlight the most important user flow or technical detail when you want this project to stand out more.
+- Built with **Node.js, Express, MongoDB, Mongoose, JWT authentication, bcrypt, Celebrate, and Winston**.
+- Supports signup/signin, protected routes, profile updates, clothing item CRUD, owner-based authorization, likes, validation, and centralized error handling.
+- Deployed behind **Nginx with HTTPS**, with logging and production-oriented API structure.
+- API: [api.quemepongo.baselinux.net](https://api.quemepongo.baselinux.net)
+- Repository: [beamendivil/WTWR-Backend-Express-and-MongoDB-API](https://github.com/beamendivil/WTWR-Backend-Express-and-MongoDB-API)
 
 ### Arizona Wine Experience
 
-- Repository: [Arizona-Wine-Experience](https://github.com/beamendivil/Arizona-Wine-Experience.git)
-- Add a short description here to highlight the experience, interface, or impact once you want to tailor the project story.
+A multi-page hospitality site for a fictional Arizona wine-tour brand, built as a front-end portfolio project focused on storytelling, design consistency, and interactive experience design.
 
-## Project Spotlight
+- Built with **HTML, CSS, vanilla JavaScript, Tailwind CLI, and GitHub Actions**.
+- Includes responsive multi-page flows, pairing-guide filters, booking prototypes, training content, accessibility notes, and testing/documentation decisions.
+- Shows front-end polish, QA-minded thinking, and clear boundaries between concept work and production-ready implementation.
+- Live Demo: [Arizona Wine Experience](https://beamendivil.github.io/CuratedTucsonSite/)
+- Repository: [beamendivil/Arizona-Wine-Experience](https://github.com/beamendivil/Arizona-Wine-Experience)
 
-| Project                 | What to review                                                      | Links                                        |
-| ----------------------- | ------------------------------------------------------------------- | -------------------------------------------- |
-| Civic Finance SPA       | Frontend structure, API integration, and data-to-visualization flow | [Project overview](#civic-finance-spa)       |
-| WTWR Frontend           | Responsive UI, weather-driven decision flow, and React structure    | [Project overview](#wtwr-frontend)           |
-| WTWR Backend            | API design, Express structure, and MongoDB data handling            | [Project overview](#wtwr-backend)            |
-| ZONA-PT                 | Project story, interface decisions, and any standout technical work | [Project overview](#zona-pt)                 |
-| Arizona Wine Experience | Experience design, content flow, and product polish                 | [Project overview](#arizona-wine-experience) |
+## What I Bring
 
-If you add more projects later, keep them in this section so the table of contents stays aligned with what reviewers should assess first.
+| Area | What it looks like |
+| ---- | ------------------ |
+| Frontend architecture | Component structure, scalable UI flows, maintainable app organization |
+| API integration | Translating backend data into interfaces that make sense to actual users |
+| Onboarding-minded UX | Reducing friction, clarifying next steps, and designing for confidence |
+| Accessibility | Building interfaces that are usable, readable, and intentionally inclusive |
+| Product thinking | Turning ambiguous requirements into features people can understand and adopt |
 
-## Focus Dashboard
+## Why My Background Helps Me Build Better Software
 
-| Signal                | What it means                                                        |
-| --------------------- | -------------------------------------------------------------------- |
-| Current focus         | Frontend architecture, API integrations, and accessible UI systems   |
-| What I optimize for   | Clarity, adoption, and practical user value                          |
-| What I enjoy building | Tools that make complex systems feel simple                          |
-| What I bring          | Product thinking from onboarding, community work, and implementation |
+Because I’ve worked in onboarding and implementation, I naturally think beyond “does it work?”
+
+I think about:
+- first-run experience,
+- where users hesitate,
+- what creates support burden,
+- what improves activation,
+- and how product decisions affect adoption over time.
+
+That perspective helps me build software that is not only functional, but easier to understand, easier to use, and easier to trust.
 
 ## Tech Stack
 
-- **Frontend:** JavaScript (ES6+), React, Vite, HTML5, CSS3 (BEM)
-- **Backend Integration:** RESTful APIs, Node.js, Express.js (scaffolded)
-- **Tools & Deployment:** Git, GitHub Pages, Figma, Webpack
-- **Methodologies:** Agile, Mobile-First Design, Single Page Applications (SPA)
+- **Frontend:** React, TypeScript, JavaScript, Vite, HTML, CSS, Tailwind, BEM
+- **Backend / APIs:** Node.js, Express, MongoDB, Mongoose, REST APIs, JWT authentication
+- **UI / DX:** Radix UI, React Hook Form, Zod, responsive design, component-driven development
+- **Tooling:** Git, GitHub, GitHub Actions, GitHub Pages, ESLint, Prettier, Figma
+- **Working style:** Accessibility-first, product-minded, mobile-aware, and deeply committed to clarity
+
+## Keywords That Tend To Follow Me Around
+
+Frontend architecture · product-minded engineering · onboarding · implementation · SaaS workflows · activation · adoption · accessibility · API integrations · user education · interaction design · community impact
 
 ## Connect
 
-📫 **Let's connect:** [Find me on LinkedIn](https://linkedin.com/in/bea-mendivil) | bea@curatedtucson.com
+📫 **Let’s connect:** [LinkedIn](https://linkedin.com/in/bea-mendivil) · bea@curatedtucson.com
