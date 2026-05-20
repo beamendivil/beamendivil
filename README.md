@@ -20,7 +20,7 @@ Frontend architecture, REST API integrations, accessibility, and civic impact to
 
 - [About Me](#about-me)
 - [Projects](#projects)
-  - [Civic Finance SPA](#civic-finance-spa)
+- [Civic Finance SPA](#civic-finance-spa)
 - [Focus Dashboard](#focus-dashboard)
 - [Project Spotlight](#project-spotlight)
 - [Tech Stack](#tech-stack)
