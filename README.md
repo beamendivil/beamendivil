@@ -44,25 +44,16 @@ A physical therapy support app designed to help therapists guide patients throug
 - Strong example of product thinking around education, accessibility, and future bilingual UX.
 - Repository: [beamendivil/ZONA-PT](https://github.com/beamendivil/ZONA-PT)
 
-### WTWR Frontend
+### WTWR — Full-Stack Weather-Based Wardrobe App
 
-A weather-based wardrobe app that helps users decide what to wear based on current conditions while managing their personal clothing inventory.
+A full-stack application that helps users manage a personal clothing inventory and receive weather-aware outfit recommendations based on current conditions.
 
-- Built with **React, Vite, JavaScript, React Router, and REST API integrations**.
-- Includes authentication flows, protected routes, profile management, item creation/deletion, likes, modal interactions, and weather-based filtering logic.
-- A solid example of component-driven frontend architecture and full-stack integration.
-- Frontend: [quemepongo.baselinux.net](https://www.quemepongo.baselinux.net)
-- Repository: [beamendivil/WTWR-Frontend-React-Weather-Based-Wardrobe-App](https://github.com/beamendivil/WTWR-Frontend-React-Weather-Based-Wardrobe-App)
-
-### WTWR Backend
-
-The Express and MongoDB backend powering the WTWR frontend.
-
-- Built with **Node.js, Express, MongoDB, Mongoose, JWT authentication, bcrypt, Celebrate, and Winston**.
-- Supports signup/signin, protected routes, profile updates, clothing item CRUD, owner-based authorization, likes, validation, and centralized error handling.
-- Deployed behind **Nginx with HTTPS**, with logging and production-oriented API structure.
-- API: [api.quemepongo.baselinux.net](https://api.quemepongo.baselinux.net)
-- Repository: [beamendivil/WTWR-Backend-Express-and-MongoDB-API](https://github.com/beamendivil/WTWR-Backend-Express-and-MongoDB-API)
+- Built with **React, Vite, JavaScript, React Router** on the frontend and **Node.js, Express, MongoDB, and Mongoose** on the backend.
+- Features authentication, protected routes, profile editing, clothing item creation/deletion, likes, modal-driven UI flows, weather filtering, request validation, and centralized error handling.
+- Demonstrates end-to-end product thinking across frontend architecture, backend API design, authentication flows, and user-centered interaction design.
+- Frontend Repository: [beamendivil/WTWR-Frontend-React-Weather-Based-Wardrobe-App](https://github.com/beamendivil/WTWR-Frontend-React-Weather-Based-Wardrobe-App)
+- Backend Repository: [beamendivil/WTWR-Backend-Express-and-MongoDB-API](https://github.com/beamendivil/WTWR-Backend-Express-and-MongoDB-API)
+- Live Demo: temporarily unavailable
 
 ### Arizona Wine Experience
 
