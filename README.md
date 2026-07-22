@@ -24,6 +24,20 @@ In engineering terms, that translates to frontend systems that are maintainable,
 
 ## Featured Projects
 
+### WC2026 — World Cup 2026 Winner Predictor  
+An interactive tournament forecasting app that models 2026 World Cup outcomes using historical results, FIFA rankings, live match context, and simulation logic that updates as the tournament evolves.
+
+- Built with **Python, Streamlit, scikit-learn, pandas, NumPy, Plotly, and Monte Carlo simulation**.
+- Predicts match outcomes and knockout advancement (including regulation, extra time, and penalties), then simulates full tournament paths and title probabilities.
+- Uses a **state-aware bracket engine** that preserves completed results, fixed fixtures, eliminations, and official best-third-place mapping while only simulating unresolved matches.
+- Includes live-data integration with caching/fallback behavior, validation reporting, and a deployment-safe snapshot pipeline for reliability during tournament play.
+- Repository: [beamendivil/WC2026](https://github.com/beamendivil/WC2026)
+- Live Demo: (https://wcup2026.streamlit.app/) 
+
+
+ 
+
+
 ### SocialImpact
 
 A full-stack personal finance dashboard that reframes budgeting around **community ROI** instead of individual-only metrics.
