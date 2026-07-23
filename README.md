@@ -76,7 +76,7 @@ A multi-page hospitality site for a fictional Arizona wine-tour brand, built as 
 - Built with **HTML, CSS, vanilla JavaScript, Tailwind CLI, and GitHub Actions**.
 - Includes responsive multi-page flows, pairing-guide filters, booking prototypes, training content, accessibility notes, and testing/documentation decisions.
 - Shows front-end polish, QA-minded thinking, and clear boundaries between concept work and production-ready implementation.
-- Live Demo: [Arizona Wine Experience](https://beamendivil.github.io/CuratedTucsonSite/)
+- Live Demo: [Arizona Wine Experience](https://beamendivil.github.io/Arizona-Wine-Experience/)
 - Repository: [beamendivil/Arizona-Wine-Experience](https://github.com/beamendivil/Arizona-Wine-Experience)
 
 ## What I Bring
